@@ -39,7 +39,8 @@ gem 'bcrypt', '3.1.7'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use Twitter bootstrap libray for front-end UI and layout
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
 # Use fontawesome gem for adding icons
 gem "font-awesome-rails"
 
