@@ -44,6 +44,9 @@ gem 'sassc-rails', '>= 2.1.0'
 # Use fontawesome gem for adding icons
 gem "font-awesome-rails"
 
+# Use Hirb for better database table display in console
+gem 'hirb'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
