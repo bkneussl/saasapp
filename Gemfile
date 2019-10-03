@@ -47,10 +47,13 @@ gem "font-awesome-rails"
 # Use Hirb for better database table display in console
 gem 'hirb'
 
+# Use Devise for user authentication
+gem 'devise'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  # gem 'sqlite3', '1.3.13'
+  gem 'sqlite3'
 end
 
 group :development do
