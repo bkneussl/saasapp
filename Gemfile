@@ -36,7 +36,7 @@ gem 'bcrypt', '3.1.7'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.1.0', require: false
+gem 'bootsnap', require: false
 
 # Use Twitter bootstrap libray for front-end UI and layout
 gem 'bootstrap-sass', '~> 3.4.1'
