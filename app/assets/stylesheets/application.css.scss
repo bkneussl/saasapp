@@ -56,6 +56,10 @@ h1, h2, h3 {
   color: white;
 }
 
+.alert-notice {
+  display: none
+}
+
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
   color: white;
   &:hover {

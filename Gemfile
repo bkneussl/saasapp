@@ -42,6 +42,7 @@ gem 'bootsnap', require: false
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
 # Use fontawesome gem for adding icons
+gem 'font-awesome-sass', '~> 5.6.1'
 gem "font-awesome-rails"
 
 # Use Hirb for better database table display in console
