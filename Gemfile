@@ -36,21 +36,25 @@ gem 'bcrypt', '3.1.7'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.1.0', require: false
+gem 'bootsnap', require: false
 
 # Use Twitter bootstrap libray for front-end UI and layout
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
 # Use fontawesome gem for adding icons
+gem 'font-awesome-sass', '~> 5.6.1'
 gem "font-awesome-rails"
 
 # Use Hirb for better database table display in console
 gem 'hirb'
 
+# Use Devise for user authentication
+gem 'devise'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  # gem 'sqlite3', '1.3.13'
+  gem 'sqlite3'
 end
 
 group :development do
