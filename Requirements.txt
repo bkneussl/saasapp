@@ -1,8 +1,8 @@
 Memberships
-* User should see link for Basic plan on home page
-* User should see link for Pro plan on home page
-* Basic plan link should point to regular Devise sign up form
-* Pro link should point to a custom sign up form (query string parameters)
+* User should see link for Basic plan on home page.
+* User should see link for Pro plan on home page.
+* Basic plan link should point to regular Devise sign up form.
+* Pro link should point to a custom sign up form (query string parameters).
 
 Stripe Integration
 * Users should have a stripe customer token in the users table.
