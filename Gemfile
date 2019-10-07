@@ -42,14 +42,19 @@ gem 'bootsnap', require: false
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
 # Use fontawesome gem for adding icons
-gem 'font-awesome-sass', '~> 5.6.1'
-gem "font-awesome-rails"
+gem 'font-awesome-sass', '~> 5.11.2'
 
 # Use Hirb for better database table display in console
 gem 'hirb'
 
 # Use Devise for user authentication
 gem 'devise'
+
+# Use Stripe for payment processing
+gem 'stripe'
+
+# Use Figaro for ENV variables
+gem 'figaro'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
