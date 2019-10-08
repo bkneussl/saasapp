@@ -7,5 +7,5 @@ stripe_api_key: sk_test_0awhnP9RUTQzJM8yAtQBjOVR00IU7A5wQ4
 stripe_publishable_key: pk_test_8d9DnbXsm4fiXat02GRa8vlB00bxPEdbHz
 #
 # production:
-  stripe_api_key: sk_test_0awhnP9RUTQzJM8yAtQBjOVR00IU7A5wQ4
-  stripe_publishable_key: pk_test_8d9DnbXsm4fiXat02GRa8vlB00bxPEdbHz
+stripe_api_key: sk_test_0awhnP9RUTQzJM8yAtQBjOVR00IU7A5wQ4
+stripe_publishable_key: pk_test_8d9DnbXsm4fiXat02GRa8vlB00bxPEdbHz
