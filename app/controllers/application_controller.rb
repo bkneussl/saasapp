@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
 
+  # Whitelist the following form fields so that we can process them, if coming from a Devise Sign Up
   before_action :configure_premitted_parameters, if: :devise_controller?
 
   protected
