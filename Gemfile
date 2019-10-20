@@ -26,6 +26,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails', '4.1.1'
 gem 'redis', '3.0'
 gem 'bcrypt', '3.1.7'
+gem 'dotenv-rails', groups: [:development, :test]
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
